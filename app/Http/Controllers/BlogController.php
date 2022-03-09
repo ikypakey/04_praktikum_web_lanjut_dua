@@ -10,7 +10,7 @@ class BlogController extends Controller
     public function blog(){
         return view('blog',[
             'tittle' => 'Blog Entries Page',
-            'blog'=> Blog::all()
+            'blogs'=> Blog::all()
         ]);
     }
 }
