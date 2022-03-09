@@ -10,7 +10,7 @@ class PostDetailsController extends Controller
 {
     public function postDetail(){
         return view('post-details',[
-            'title' => 'Post Detail',
+            'tittle' => 'Post Detail',
             'posts' => Post::all()
         ]);
     }
